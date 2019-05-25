@@ -1,4 +1,3 @@
-# HelloJNI
 linux下JNI实现步骤
 1、编写java文件，如下(HelloJNI.java)：
 	public class HelloJNI{
@@ -93,4 +92,3 @@ linux下JNI实现步骤
 	执行：
 	export LD_LIBRARY_PATH=/home/du/test_code:$LD_LIBRARY_PATH	//设置Mylib库路径环境变量
 	java HelloJNI
-
